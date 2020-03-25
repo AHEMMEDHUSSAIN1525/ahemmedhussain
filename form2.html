@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>form</title>
+     <style>
+         form {
+             border: 2px solid pink;
+         }
+     </style>
+</head>
+<body>
+    <h1>CREATE ACCOUNT</h1>
+    <form>
+        <input type="text" name="first name" placeholder="first name" required>
+         
+        <input type="text" name="last name" placeholder="last name">
+       
+        <div>
+            <label for="user name">user name</label>
+            <input type="text" name="user name" placeholder="user name123">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email"name="email" placeholder="@gmail.com">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password">
+        </div>
+        <div>
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" value="male">
+
+        <label for="gender">Female</label>
+        <input type="radio" name="gender" value="female">
+
+        <label for="others">Others</label>
+        <input type="radio" name="gender" value="Others">
+        </div>
+        <div>
+            <input type="checkbox"> 
+                <label> terms and condition </label><br>
+                <h>I agree the above terms and conditions</h>
+        </div>
+        <div>
+          <button>submit</button>
+        </div>
+        <div>
+            <button>Reset</button>
+        </div>
+
+    </form>
+    
+</body>
+</html>
